@@ -25,7 +25,7 @@ const App = () => {
       <ApprovalCard>
         <CommentDetail
           author='Iris'
-          timeAgo='Yesterday at 9:00AM'
+          timeAgo='Yesterday at 9:00A M'
           text='Hola, que tal?'
           image='https://source.unsplash.com/random'
         />
