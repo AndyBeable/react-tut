@@ -9,3 +9,20 @@
 Props allow us to configure how a component behaves, or the content that it shows.
 
 Props is a system for passing data from a parent component to a child component. Props goal is to customise or configure a child component.
+
+## Class-Based Components
+
+Class vs function components
+
+Functional Components
+
+- Can produce JSX to show content to the user
+- Can use Hooks to run code at specific points in time
+- Can use Hooks to access state system and update content on screen
+- Good for simple content
+
+Class Components
+
+- Can produce JSX to show content to the user
+- Can use the Lifecycle method system to run code at specific points in time
+- Can use the 'state' system to update content on screen
