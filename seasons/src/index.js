@@ -5,18 +5,29 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { lat: null }; // only time we directly assign to this.state
+    this.state = { lat: null, errorMessage: '' }; // only time we directly assign to this.state
 
     window.navigator.geolocation.getCurrentPosition(
       position => {
         this.setState({ lat: position.coords.latitude }); // this updates our state object (line 8)
       },
-      err => console.log(err)
+      err => {
+        this.setState({ errorMessage: err.message });
+      }
     );
   }
 
+  // Render() must always be defined
   render() {
-    return <div>Latitude: {this.state.lat}</div>;
+    if (this.state.errorMessage && !this.state.lat) {
+      return <div>Error: {this.state.errorMessage}</div>;
+    }
+
+    if (!this.state.errorMessage && this.state.lat) {
+      return <div>Latitude: {this.state.lat}</div>;
+    }
+
+    return <div>Loading!</div>;
   }
 }
 
