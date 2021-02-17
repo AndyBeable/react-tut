@@ -39,11 +39,17 @@ super(props); // must be included, tells react to keep the props from react as w
 
 A component lifecycle method is a function that we can define inside our class based components
 
-- constructor
-- render
+- constructor (good place to do one-time setup, also do initial data loaded (request to API for eg). Not recommended. Put data-loading in componentDidMount)
+- render (avoid doing anything besides returning jsx)
   .......content becomes visible on screen.......
-- componentDidMount
+- componentDidMount (good place to do data-loading)
   .......sit and wait for updates.........
-- componentDidUpdate
+- componentDidUpdate (good place to do more data-loading when state/props change)
   .......sit and wait until this component is no longer shown.....
-- componentWillUnmount
+- componentWillUnmount (good place to do cleanup)
+
+Other Lifecycle methods (rarely used)
+
+- shouldComponentUpdate
+- getDerviedStateFromProps
+- getSnapshotBeforeUpdate
