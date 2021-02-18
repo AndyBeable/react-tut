@@ -8,7 +8,7 @@ class App extends React.Component {
   //   super(props);
   //   this.state = { lat: null, errorMessage: '' }; // only time we directly assign to this.state
   // }
-  state = { lat: null, errorMessage: '' }; // this does the same as what the constructor is doing
+  state = { lat: null, errorMessage: '' }; // this does the same as what the constructor was doing
 
   componentDidMount() {
     window.navigator.geolocation.getCurrentPosition(
@@ -17,8 +17,7 @@ class App extends React.Component {
     );
   }
 
-  // Render() must always be defined
-  render() {
+  renderContent() {
     if (this.state.errorMessage && !this.state.lat) {
       return <div>Error: {this.state.errorMessage}</div>;
     }
@@ -28,6 +27,11 @@ class App extends React.Component {
     }
 
     return <Spinner message='Please wait whilst we get your location...' />;
+  }
+
+  // Render() must always be defined
+  render() {
+    return <div className='border red'>{this.renderContent()};</div>;
   }
 }
 
