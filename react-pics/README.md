@@ -27,3 +27,7 @@ AJAX client (is what gets us the data back)
 - Request complete
 - set image data on state of App component
 - App component rerenders to show images
+
+## React Refs
+
+System to give you direct access to a single DOM element that is rendered by a component.
