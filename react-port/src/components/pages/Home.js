@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection';
-import About from '../About';
-import Work from '../Work';
+import HeroSection from '../hero/HeroSection';
+import About from '../about/About';
+import Work from '../work/Work';
 
 function Home() {
   return (

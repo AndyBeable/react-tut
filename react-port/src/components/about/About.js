@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import Skills from './Skills';
+import Skills from '../skills/Skills';
 
 function About() {
   return (
