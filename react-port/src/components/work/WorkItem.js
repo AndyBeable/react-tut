@@ -1,10 +1,12 @@
 import React from 'react';
+import Dropped from '../../images/dropped.png';
 
-function WorkItem() {
+function WorkItem({ headline, description, buttonLabel, imgStart, img, alt }) {
   return (
     <>
-      <div>
-        <h1>test</h1>
+      <div className='work__card'>
+        <img src={Dropped} alt='Dropped' />
+        <h3>{headline}</h3>
       </div>
     </>
   );
