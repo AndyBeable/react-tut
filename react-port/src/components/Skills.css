@@ -1,0 +1,26 @@
+.skill {
+  margin-bottom: 1rem;
+  margin: 1rem auto;
+  background: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 30px 40px 0 rgb(212 217 232 / 20%);
+}
+
+.skill p {
+  color: #708090;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.skill-sml {
+  width: 50%;
+}
+
+.skill-med {
+  width: 80%;
+}
+.skill-lrg {
+  width: 95%;
+}

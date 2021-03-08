@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import Skills from './Skills';
 
 function About() {
   return (
@@ -11,7 +12,7 @@ function About() {
           <p>A little bit about me</p>
         </div>
         <div>
-          <div className='about__copy-container'>
+          <div className='about__container'>
             <h3>Hello!</h3>
             <p>
               My name is Andy Beable and I'm a passionate Frontend Web Developer
@@ -20,6 +21,7 @@ function About() {
               using the power of technology.
             </p>
           </div>
+          <Skills />
         </div>
       </div>
     </>
