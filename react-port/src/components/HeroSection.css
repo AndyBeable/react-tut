@@ -41,10 +41,6 @@ video {
   font-family: 'Trebuchest MS', 'Lucinda Sans Unicode', sans-serif;
 }
 
-.hero-btns {
-  margin-top: 32px;
-}
-
 .hero-btns .btn {
   margin: 6px;
 }
@@ -75,7 +71,12 @@ video {
     text-decoration: none;
   }
 
+  .hero-btns {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
   .btn {
-    width: 100%;
+    width: 80%;
   }
 }
