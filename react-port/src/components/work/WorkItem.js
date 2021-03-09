@@ -11,7 +11,7 @@ function WorkItem({
   darkBg,
   lightText,
   lightTextDesc,
-  buttonColor,
+  buttonStyle,
 }) {
   return (
     <>
@@ -24,7 +24,7 @@ function WorkItem({
           <p className={lightTextDesc ? 'lightTextDesc' : 'darkTextDesc'}>
             {description}
           </p>
-          <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
+          <Button buttonStyle={buttonStyle ? 'btn--outline' : 'btn--fill'}>
             {buttonLabel}
           </Button>
         </div>

@@ -5,9 +5,10 @@ export const workObjOne = {
   headline: 'Dropped',
   description:
     'Dropped is a ficitious cycling blog I created where people can follow all the latest cycling news. Made using HTML,CSS, Sass.',
-  buttonLabel: 'See live',
+  buttonLabel: 'View live',
   img: '../../images/dropped.png',
   alt: 'Dropped',
+  buttonStyle: true,
 };
 
 export const workObjTwo = {
@@ -17,9 +18,10 @@ export const workObjTwo = {
   headline: 'Photon',
   description:
     'Photon allows users to search for beautiful imagery for use in their own projects. Made using HTML, CSS, JS and Axios.',
-  buttonLabel: 'See live',
+  buttonLabel: 'View live',
   img: '../../images/photon.png',
   alt: 'Photon',
+  buttonStyle: false,
 };
 export const workObjThree = {
   darkBg: true,
@@ -28,7 +30,8 @@ export const workObjThree = {
   headline: 'Loop Studios',
   description:
     'Loop Studios is a ficitious landing page for an agency. Made using HTML, CSS, SASS and focused on responsive design.',
-  buttonLabel: 'See live',
+  buttonLabel: 'View live',
   img: '../../images/loop.png',
   alt: 'Loop Studios',
+  buttonStyle: true,
 };
