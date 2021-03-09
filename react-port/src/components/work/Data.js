@@ -1,23 +1,34 @@
 export const workObjOne = {
+  darkBg: true,
+  lightText: true,
+  lightTextDesc: true,
   headline: 'Dropped',
   description:
     'Dropped is a ficitious cycling blog I created where people can follow all the latest cycling news. Made using HTML,CSS, Sass.',
-  buttonLabel: 'Find out more',
-  imgStart: '',
-  img: '',
+  buttonLabel: 'See live',
+  img: '../../images/dropped.png',
   alt: 'Dropped',
 };
 
-// export const workObjOne = {
-//   lightBg: false,
-//   lightText: true,
-//   lightTextDesc: true,
-//   topLine: 'Exclusvie Access',
-//   headline: 'Unlimited transactions with zero fees',
-//   description:
-//     'Get access to our exclusive diamond card that allows you to send unlimited transactions without getting charged any fees',
-//   buttonLabel: 'Get Started',
-//   imgStart: '',
-//   img: 'images/svg-1.svg',
-//   alt: 'Credit Card',
-// };
+export const workObjTwo = {
+  darkBg: false,
+  lightText: false,
+  lightTextDesc: false,
+  headline: 'Photon',
+  description:
+    'Photon allows users to search for beautiful imagery for use in their own projects. Made using HTML, CSS, JS and Axios.',
+  buttonLabel: 'See live',
+  img: '../../images/photon.png',
+  alt: 'Photon',
+};
+export const workObjThree = {
+  darkBg: true,
+  lightText: true,
+  lightTextDesc: true,
+  headline: 'Loop Studios',
+  description:
+    'Loop Studios is a ficitious landing page for an agency. Made using HTML, CSS, SASS and focused on responsive design.',
+  buttonLabel: 'See live',
+  img: '../../images/loop.png',
+  alt: 'Loop Studios',
+};

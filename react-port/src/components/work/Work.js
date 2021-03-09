@@ -1,6 +1,7 @@
 import React from 'react';
 import WorkItem from './WorkItem';
 import './Work.css';
+import { workObjOne, workObjTwo, workObjThree } from './Data';
 
 function Work() {
   return (
@@ -12,7 +13,9 @@ function Work() {
           <p>Here you can find some projects i've been working on recently.</p>
         </div>
 
-        <WorkItem />
+        <WorkItem {...workObjOne} />
+        <WorkItem {...workObjTwo} />
+        <WorkItem {...workObjThree} />
       </div>
     </>
   );

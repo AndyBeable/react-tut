@@ -4,7 +4,7 @@ import './Skills.css';
 function Skills() {
   return (
     <>
-      <div class='about__container'>
+      <div className='about__container'>
         <h3>Skills</h3>
         <div className='skill skill-sml'>
           <p>HTML</p>
