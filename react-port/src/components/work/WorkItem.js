@@ -11,6 +11,7 @@ function WorkItem({
   darkBg,
   lightText,
   lightTextDesc,
+  buttonColor,
 }) {
   return (
     <>

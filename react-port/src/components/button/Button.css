@@ -49,6 +49,11 @@
   transition: all 0.3s ease-out;
 }
 
+.btn--mobileDark {
+  border: 1px solid #242424;
+  color: #242424;
+}
+
 .btn--wide {
   padding: 12px 64px;
   font-size: 20px;
