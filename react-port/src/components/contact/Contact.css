@@ -17,7 +17,7 @@ input {
 }
 
 input:focus {
-  border-bottom: 3px solid #1c2237;
+  border-bottom: 3px solid var(--blue);
 }
 
 input::placeholder {
@@ -34,5 +34,5 @@ textarea {
 }
 
 textarea:focus {
-  border-bottom: 3px solid #1c2237;
+  border-bottom: 3px solid var(--blue);
 }

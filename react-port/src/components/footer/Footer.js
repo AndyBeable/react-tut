@@ -13,12 +13,13 @@ function Footer() {
         <div className='footer'>
           <div className='footer__container'>
             <div className='social__container'>
-              <a href='https://github.com' target='_blank'>
+              <a href='https://github.com' target='_blank' rel='noreferrer'>
                 <FaGithub />
               </a>
               <a
                 href='https://www.linkedin.com/in/andy-beable/'
                 target='_blank'
+                rel='noreferrer'
               >
                 <FaLinkedin />
               </a>

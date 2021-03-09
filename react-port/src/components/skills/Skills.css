@@ -1,7 +1,7 @@
 .skill {
   margin-bottom: 1rem;
   margin: 1rem auto;
-  background: #fff;
+  background: var(--white);
   padding: 1rem 2rem;
   text-align: center;
   border-radius: 5px;
@@ -9,7 +9,7 @@
 }
 
 .skill p {
-  color: #708090;
+  color: var(--grey);
   font-size: 1.2rem;
   text-transform: uppercase;
 }
