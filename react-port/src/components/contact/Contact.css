@@ -1,0 +1,38 @@
+.contact__copy {
+  margin-bottom: 2rem;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 3px solid #67727e1e;
+  padding: 2rem 1rem;
+  width: 90%;
+  transition: all 0.3s ease-in;
+}
+
+input:focus {
+  border-bottom: 3px solid #1c2237;
+}
+
+input::placeholder {
+  position: absolute;
+  left: 0;
+}
+
+textarea {
+  border: none;
+  width: 90%;
+  padding: 2rem 1rem;
+  border-bottom: 3px solid #67727e1e;
+  transition: all 0.3s ease-in;
+}
+
+textarea:focus {
+  border-bottom: 3px solid #1c2237;
+}
