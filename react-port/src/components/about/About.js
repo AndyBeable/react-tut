@@ -9,7 +9,7 @@ function About() {
         <div className='wrapper copy'>
           <h3>About</h3>
           <h1>Personal Info</h1>
-          <p>A little bit about me</p>
+          <p>A little bit about me.</p>
         </div>
         <div>
           <div className='about__container'>
