@@ -15,7 +15,9 @@
 }
 
 .about__container {
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .about__container h3 {

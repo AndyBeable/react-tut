@@ -29,19 +29,27 @@ video {
   padding-left: 20px;
 }
 
-.hero-container > h3 {
-  color: rgb(146, 56, 127);
+.hero-copy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+.hero-copy > h3 {
+  color: var(--gold);
   font-size: 25px;
   letter-spacing: 0.5rem;
 }
 
-.hero-container > h1 {
+.hero-copy > h1 {
   color: #fff;
   font-size: 100px;
-  margin-top: -100px;
+  /* margin-top: -100px; */
 }
 
-.hero-container > p {
+.hero-copy > p {
   margin-top: 8px;
   margin-bottom: 1rem;
   color: var(--white);
@@ -57,19 +65,19 @@ video {
 }
 
 @media screen and (max-width: 960px) {
-  .hero-container > h1 {
+  .hero-copy > h1 {
     font-size: 70px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero-container > h1 {
+  .hero-copy > h1 {
     font-size: 50px;
     margin-top: 0.5rem;
   }
 
-  .hero-container > p {
+  .hero-copy > p {
     font-size: 30px;
   }
 
@@ -79,11 +87,11 @@ video {
   }
 
   .hero-btns {
-    text-align: center;
+    /* text-align: center; */
     padding-top: 1rem;
   }
 
   .btn {
-    width: 100%;
+    /* width: 70%; */
   }
 }

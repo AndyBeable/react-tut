@@ -36,3 +36,16 @@ textarea {
 textarea:focus {
   border-bottom: 3px solid var(--blue);
 }
+
+@media screen and (min-width: 660px) {
+  form {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  form {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
