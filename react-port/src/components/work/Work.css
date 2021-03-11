@@ -46,3 +46,15 @@
   width: 90%;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 1024px) {
+  .work__card {
+    display: flex;
+    padding: 2.5rem 2rem;
+    align-items: center;
+  }
+
+  .work__card img {
+    width: 50%;
+  }
+}
