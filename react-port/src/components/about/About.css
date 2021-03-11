@@ -34,3 +34,26 @@
   text-decoration: none;
   color: #708090;
 }
+
+@media screen and (min-width: 768px) {
+  .copy h1 {
+    font-size: 3rem;
+  }
+  .copy h3 {
+    font-size: 1.5rem;
+  }
+
+  .copy {
+    font-size: 1.5rem;
+  }
+
+  .about__container h3 {
+    font-size: 2rem;
+  }
+
+  .about__container p {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+  }
+}
