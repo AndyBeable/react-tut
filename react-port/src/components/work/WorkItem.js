@@ -16,7 +16,7 @@ function WorkItem({
   return (
     <>
       <div className={darkBg ? 'work__card darkBg' : 'work__card'}>
-        <img src={img} alt={alt} />
+        <img src={Dropped} alt={alt} />
         <div className='work__card-copy'>
           <h3 className={lightText ? 'heading--light' : 'heading--dark'}>
             {headline}

@@ -25,4 +25,10 @@
   color: #708090;
   line-height: 1.8rem;
   letter-spacing: 1.5px;
+  margin-bottom: 1rem;
+}
+
+.about__container a {
+  text-decoration: none;
+  color: #708090;
 }
