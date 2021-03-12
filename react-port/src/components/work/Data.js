@@ -9,6 +9,7 @@ export const workObjOne = {
   img: '../../images/dropped.png',
   alt: 'Dropped',
   buttonStyle: true,
+  url: 'https://dropped.vercel.app/',
 };
 
 export const workObjTwo = {
@@ -22,6 +23,7 @@ export const workObjTwo = {
   img: '../../images/photon.png',
   alt: 'Photon',
   buttonStyle: false,
+  url: 'https://photon.vercel.app/',
 };
 export const workObjThree = {
   darkBg: true,
@@ -34,4 +36,5 @@ export const workObjThree = {
   img: '../../images/loop.png',
   alt: 'Loop Studios',
   buttonStyle: true,
+  url: 'https://loop-studios.vercel.app/',
 };

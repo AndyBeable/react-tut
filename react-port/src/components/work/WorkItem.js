@@ -12,6 +12,7 @@ function WorkItem({
   lightText,
   lightTextDesc,
   buttonStyle,
+  url,
 }) {
   return (
     <>
@@ -24,9 +25,11 @@ function WorkItem({
           <p className={lightTextDesc ? 'lightTextDesc' : 'darkTextDesc'}>
             {description}
           </p>
-          <Button buttonStyle={buttonStyle ? 'btn--outline' : 'btn--fill'}>
-            {buttonLabel}
-          </Button>
+          <a href={url} target='_blank' rel='noreferrer'>
+            <Button buttonStyle={buttonStyle ? 'btn--outline' : 'btn--fill'}>
+              {buttonLabel}
+            </Button>
+          </a>
         </div>
       </div>
     </>
