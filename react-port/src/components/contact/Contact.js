@@ -1,7 +1,8 @@
 import React from 'react';
+import { Button } from '../button/Button';
 import './Contact.css';
 
-function Contact() {
+function Contact({ buttonStyle, buttonLabel }) {
   return (
     <>
       <div className='wrapper copy'>
@@ -30,6 +31,14 @@ function Contact() {
                 cols='50'
               ></textarea>
             </div>
+            <Button
+              className='btns'
+              buttonStyle='btn--outline'
+              buttonSize='btn--medium'
+              buttonColor='primary'
+            >
+              Submit
+            </Button>
           </fieldset>
         </form>
       </div>
