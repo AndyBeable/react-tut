@@ -38,7 +38,7 @@ video {
 }
 
 .hero-copy > h3 {
-  color: var(--gold);
+  color: rgb(146, 56, 127);
   font-size: 25px;
   letter-spacing: 0.5rem;
 }

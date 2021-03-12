@@ -10,7 +10,7 @@ function Footer() {
       <IconContext.Provider
         value={{ color: '#fff', size: '2.3rem', className: 'social__icons' }}
       >
-        <div className='footer'>
+        <footer className='footer'>
           <div className='footer__container'>
             <div className='social__container'>
               <a href='https://github.com' target='_blank' rel='noreferrer'>
@@ -28,7 +28,7 @@ function Footer() {
               <a href='mailto:andy.beable@gmail.com'>andy.beable@gmail.com</a>
             </div>
           </div>
-        </div>
+        </footer>
       </IconContext.Provider>
     </>
   );

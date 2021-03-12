@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
 import { IconContext } from 'react-icons/lib';
+import Scroll from 'react-scroll';
+
+const ScrollLink = Scroll.ScrollLink;
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -13,7 +16,7 @@ function Navbar() {
   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
-        <div className='navbar'>
+        <nav className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               AB
@@ -29,7 +32,7 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/services'
+                  to='#about'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
@@ -56,7 +59,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
-        </div>
+        </nav>
       </IconContext.Provider>
     </>
   );

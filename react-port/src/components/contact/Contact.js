@@ -5,7 +5,7 @@ import './Contact.css';
 function Contact({ buttonStyle, buttonLabel }) {
   return (
     <>
-      <div className='wrapper copy'>
+      <section className='wrapper copy'>
         <h3>Contact</h3>
         <h1>Say Hello.</h1>
         <p className='contact__copy'>
@@ -41,7 +41,7 @@ function Contact({ buttonStyle, buttonLabel }) {
             </Button>
           </fieldset>
         </form>
-      </div>
+      </section>
     </>
   );
 }
