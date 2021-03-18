@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from '../button/Button';
-import Dropped from '../../images/dropped.png';
 
 function WorkItem({
   headline,
@@ -17,7 +16,7 @@ function WorkItem({
   return (
     <>
       <div className={darkBg ? 'work__card darkBg' : 'work__card'}>
-        <img src={Dropped} alt={alt} />
+        <img src={img} alt={alt} />
         <div className='work__card-copy'>
           <h3 className={lightText ? 'heading--light' : 'heading--dark'}>
             {headline}

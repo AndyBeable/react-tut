@@ -31,29 +31,22 @@ function Navbar() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link
+                <a
+                  href='#about'
                   to='#about'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
                   About
-                </Link>
+                </a>
               </li>
               <li className='nav-item'>
-                <Link
-                  to='/products'
-                  className='nav-links'
-                  onClick={closeMobileMenu}
-                >
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                   Work
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link
-                  to='/products'
-                  className='nav-links'
-                  onClick={closeMobileMenu}
-                >
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                   Contact
                 </Link>
               </li>
