@@ -23,10 +23,11 @@ function About() {
                 <div className='about__intro'>
                   <h3>Hello!</h3>
                   <p>
-                    My name is Andy Beable and I'm a passionate Frontend Web
-                    Developer using web technologies to build amazing products
-                    and focusing on solving problems for different niches and
-                    different industries using the power of technology.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor
                   </p>
                   <a href={pdf} download>
                     <IoDocumentTextOutline />
