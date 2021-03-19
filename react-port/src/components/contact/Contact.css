@@ -38,6 +38,18 @@ textarea:focus {
   border-bottom: 3px solid var(--blue);
 }
 
+.email a {
+  color: var(--white);
+  letter-spacing: 0.5rem;
+  text-decoration: none;
+}
+
+.email {
+  margin: 0 auto;
+  background-color: var(--blue);
+  padding: 2.5rem 1.5rem;
+}
+
 @media screen and (min-width: 660px) {
   form {
     width: 90%;
@@ -48,5 +60,9 @@ textarea:focus {
   form {
     width: 60%;
     margin: 0 auto;
+  }
+
+  .email {
+    max-width: 55%;
   }
 }

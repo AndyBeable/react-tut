@@ -24,9 +24,9 @@ function Footer() {
                 <FaLinkedin />
               </a>
             </div>
-            <div className='email'>
+            {/* <div className='email'>
               <a href='mailto:andy.beable@gmail.com'>andy.beable@gmail.com</a>
-            </div>
+  </div> */}
           </div>
         </footer>
       </IconContext.Provider>

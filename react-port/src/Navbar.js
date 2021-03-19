@@ -33,7 +33,6 @@ function Navbar() {
               <li className='nav-item'>
                 <a
                   href='#about'
-                  to='#about'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
@@ -41,14 +40,18 @@ function Navbar() {
                 </a>
               </li>
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                <a href='#work' className='nav-links' onClick={closeMobileMenu}>
                   Work
-                </Link>
+                </a>
               </li>
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                <a
+                  href='#contact'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

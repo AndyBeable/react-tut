@@ -6,7 +6,7 @@ import { workObjOne, workObjTwo, workObjThree } from './Data';
 function Work() {
   return (
     <>
-      <section className='work'>
+      <section className='work' id='work'>
         <div className='wrapper copy'>
           <h3>Work</h3>
           <h1>Latest Projects</h1>

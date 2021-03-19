@@ -5,14 +5,14 @@ import './Contact.css';
 function Contact({ buttonStyle, buttonLabel }) {
   return (
     <>
-      <section className='wrapper copy'>
+      <section className='wrapper copy' id='contact'>
         <h3>Contact</h3>
         <h1>Say Hello.</h1>
         <p className='contact__copy'>
           If you need any further information on me, or my work, please get in
           touch below.
         </p>
-        <form>
+        {/* <form>
           <fieldset>
             <div>
               <input name='name' type='text' placeholder='Name'></input>
@@ -40,7 +40,11 @@ function Contact({ buttonStyle, buttonLabel }) {
               Submit
             </Button>
           </fieldset>
-        </form>
+        </form> */}
+
+        <div className='email'>
+          <a href='mailto:andy.beable@gmail.com'>andy.beable@gmail.com</a>
+        </div>
       </section>
     </>
   );

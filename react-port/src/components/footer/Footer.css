@@ -4,17 +4,6 @@
   padding-bottom: 2rem;
 }
 
-.email a {
-  color: var(--white);
-  letter-spacing: 0.5rem;
-  text-decoration: none;
-}
-
-.email {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .social__container {
   padding-top: 2.5rem;
   padding-bottom: 1rem;
