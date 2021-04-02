@@ -33,4 +33,9 @@ body {
 
 .book h2 {
   margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.book h3 {
+  letter-spacing: 0.3rem;
+  color: navy;
 }

@@ -16,20 +16,16 @@ function BookList() {
 }
 
 const Book = () => {
+  const title = 'They Book Die at the End';
+  const author = 'Adam Silvera';
+
   return (
     <article className='book'>
-      <Image />
-      <Title />
-      <Author />
+      <img src='https://m.media-amazon.com/images/I/815TTLvJUFL._AC_UY218_.jpg' />
+      <h2>{title}</h2>
+      <h3>{author.toUpperCase()}</h3>
     </article>
   );
 };
-
-const Image = () => (
-  <img src='https://m.media-amazon.com/images/I/815TTLvJUFL._AC_UY218_.jpg' />
-);
-
-const Title = () => <h2>They Book Die at the End</h2>;
-const Author = () => <h3>Adam Silvera</h3>;
 
 ReactDOM.render(<BookList />, document.getElementById('root'));
