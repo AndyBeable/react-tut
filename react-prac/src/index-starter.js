@@ -20,8 +20,13 @@ function BookList() {
         img={firstBook.img}
         title={firstBook.title}
         author={firstBook.author}
-      />
-
+      >
+        <p>
+          Some text here. Some text here. Some text here. Some text here. Some
+          text here. Some text here. Some text here. Some text here. Some text
+          here.
+        </p>
+      </Book>
       <Book
         img={secondBook.img}
         title={secondBook.title}
@@ -36,12 +41,16 @@ function BookList() {
 }
 
 const Book = props => {
-  const { img, title, author } = props;
+  // can also destructure props ({ img, title, author, children}})
+  // or can destructure like by passing props in to variable
+  // const {img, title, author, children} = props;
+
   return (
     <article className='book'>
-      <img src={img} alt='book cover' />
-      <h2>{title}</h2>
-      <h3>{author}</h3>
+      <img src={props.img} alt='book cover' />
+      <h2>{props.title}</h2>
+      <h3>{props.author}</h3>
+      {props.children}
     </article>
   );
 };
