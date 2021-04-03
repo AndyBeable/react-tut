@@ -2,7 +2,7 @@ export const books = [
   {
     id: 1,
     img: 'https://m.media-amazon.com/images/I/815TTLvJUFL._AC_UY218_.jpg',
-    title: 'They Book Die at the End',
+    title: 'They Both Die at the End',
     author: 'Adam Silvera',
   },
   {
